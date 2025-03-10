@@ -1,0 +1,6 @@
+It's stupid, but the way the camera thing will have to work is to make a virtual camera with pyvirtualcam that can be forwarded to Electron. But this requires OBS on Mac/Win, and a special package on Linux, which the Electron app will need to auto-install for us in its final version.
+Camera and serial port are separate. Should camera autoconnect, but serial not autoconnect?
+
+Maybe have one screen where it asks you to connect to the gimbal, and then only proceed to the main control panel once you're connected.
+
+How should Python pick which camera to use? Should Electron tell it?
